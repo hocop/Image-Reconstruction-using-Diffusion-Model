@@ -1,0 +1,6 @@
+.vscode
+*.pt
+*.npy
+documenting
+*.egg-info
+*__pychache__
