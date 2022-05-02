@@ -1,5 +1,7 @@
 This folder is copied from https://github.com/openai/improved-diffusion
 
+My only change is in `improved_diffusion/gaussian_diffusion.py`: added function `p_sample_image_completion`.
+
 Original readme:
 
 # improved-diffusion
