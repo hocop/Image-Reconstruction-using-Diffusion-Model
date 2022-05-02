@@ -2,7 +2,7 @@
 
 This is the code for my [article](https://medium.com/@ruslanbaynazarov/diffusion-models-can-be-used-for-image-reconstruction-out-of-the-box-62d7fda78fb1).
 
-Before running the code, you should install `improved-diffusion` package. Check the readme of the `improved-diffusion` folder.
+Before running the code, you should install `improved-diffusion` package. Check the readme of the `improved-diffusion` folder. Note: install from my copy, and not from the original repository.
 
 Also models `imagenet64_uncond_100M_1500K.pt` and `upsample_cond_500K.pt` need to be downloaded. Links are in the `improved-diffusion` folder.
 
