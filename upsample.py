@@ -69,7 +69,7 @@ def main(args):
 
     # Load low-res images
     if args.lowres_images.endswith('.npy'):
-        imgs_low_np = np.load(args.lowres_images)[11:12]
+        imgs_low_np = np.load(args.lowres_images)
     else:
         imgs_low_np = cv2.imread(args.lowres_images)[:, :, ::-1]
         imgs_low_np = cv2.resize(
