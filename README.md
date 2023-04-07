@@ -17,3 +17,20 @@ To upsample these samples from 64 to 256 resolution, run:
 ```
 python upsample.py --upsample_model_path upsample_cond_500K.pt --lowres_images generated_doge.png.npy --input_image doge.png
 ```
+
+# Results
+The doge image
+
+![](doge.png)
+
+Turns into this (one of possible outcomes):
+
+![](pictures/doge_result.jpg)
+
+As you can see, the model gave doge a body.
+
+The image of myself turned into this (right half of the image was masked off):
+
+![](pictures/me+bird_result.jpg)
+
+As you can see, the model gave me a bird.
