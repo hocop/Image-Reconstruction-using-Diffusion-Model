@@ -1,6 +1,6 @@
 # Image Reconstruction using Diffusion Model
 
-This is the code for my [article](https://medium.com/@ruslanbaynazarov/diffusion-models-can-be-used-for-image-reconstruction-out-of-the-box-62d7fda78fb1).
+The code is not based on any paper. But it does something similar to [this paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Lugmayr_RePaint_Inpainting_Using_Denoising_Diffusion_Probabilistic_Models_CVPR_2022_paper.pdf) or (less similar to) [this paper](https://arxiv.org/pdf/2112.10741.pdf).
 
 Before running the code, you should install `improved-diffusion` package. Check the readme of the `improved-diffusion` folder. Note: install from my copy, and not from the original repository.
 
